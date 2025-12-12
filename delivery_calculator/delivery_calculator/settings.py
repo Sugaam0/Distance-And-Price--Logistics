@@ -58,7 +58,7 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-GEOAPIFY_API_KEY='fdd1cc8280464a8f91fa18d317ae53d6'
+GEOAPIFY_API_KEY = config("GEOAPIFY_API_KEY")
 
 
 
